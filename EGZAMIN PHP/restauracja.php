@@ -1,0 +1,1 @@
+mysqli_connect(serwer, użytkownik, hasło, nazwa_bazy)

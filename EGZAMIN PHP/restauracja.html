@@ -6,37 +6,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="baner">
+    <section id="baner">
         <h1> Witamy w restauracji „Wszystkie Smaki”</h1>
-    </div>
+    </section>
 
-    <div>
-    <div id="lewy">
+    <section>
+    <section id="lewy">
         <img src="menu.jpg" alt="Nasze danie">
-    </div>
-    <div id="prawy">
+    </section>
+    <section id="prawy">
         <h4>U nas dobrze zjesz</h4>
         <ul>
             <li>Obiady po 40zł</li>
             <li>Przekąski po 10zł</li>
             <li>Kolacje od 20</li>
         </ul>
-    </div>
-    </div>
+    </section>
+    </section>
 
-    <div id="dolny">
+    <section id="dolny">
         <h2>Zarezerwuj stolik on-line</h2>
         <form method="POST">
-            Data urodzenia: <br>
+            Data (Format rrrr-mm-dd): <br>
             <input type="date"><br>
             Ile osób? <br>
             <input type="number" id="ilosc_osob" min="1" max="10"><br>
             Twój numer telefonu: <br>
             <input type="number" id="telefon"><br>
-            <input type="checkbox" id="zgoda"> Zgadzam się na przetwarzanie moich danych osobowych<br>
+            <input type="checkbox" id="zgoda" required> Zgadzam się na przetwarzanie moich danych osobowych<br>
             <button onclick="wyczysc()">WYCZYŚĆ</button><button onclick="wyslij()">WYŚLIJ</button>
         </form>
-    </div>
-    <footer>Stronę internetową opracował Eryk Klawikowski</footer>
+    </section>
+    <footer>Stronę internetową opracował: Eryk Klawikowski</footer>
 </body>
 </html>
